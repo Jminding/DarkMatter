@@ -91,6 +91,11 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6">
                         <form id="contactForm" method="POST" action="https://formsubmit.co/89809cf15562169e44faeb21bb35dbba">
+                            <input type="hidden" name="_next" value="https://jminding.github.io/DarkMatter/thankyou.html">
+                            <input type="hidden" name="_subject" value="Someone contacted you on the Dark Matter Research website">
+                            <input type="hidden" name="_cc" value="pradyota.phaneesh@gmail.com,abhiramatluri42@gmail.com">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Please enter your name.')" required />
@@ -118,11 +123,6 @@
                                     <br />
                                 </div>
                             </div>
-                            <input type="hidden" name="_next" value="https://jminding.github.io/DarkMatter/thankyou.html">
-                            <input type="hidden" name="_subject" value="Someone contacted you on the Dark Matter Research website">
-                            <input type="hidden" name="_cc" value="pradyota.phaneesh@gmail.com,abhiramatluri42@gmail.com">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_template" value="table">
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit">Submit</button></div>
                         </form>
