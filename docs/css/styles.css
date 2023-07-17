@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -156,6 +158,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 abbr[title] {
@@ -10825,7 +10829,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .text-white-75 {
@@ -10915,10 +10919,14 @@ hr.divider-light {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: url("../assets/img/m101.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("../assets/img/m101.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

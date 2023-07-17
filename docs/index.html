@@ -37,13 +37,16 @@
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Dark Matter Distributions Across Different Galaxy Types</h1>
+                    <div>
+                    <!-- <div class="-lg align-self-end"> -->
+                        <!-- <br><br><br><br><br> -->
+                        <h1 class="text-white font-weight-bold" style="font-size: 43px;">Mass-to-Luminosity Ratio & Its Correlation To Dark Matter Distributions Across Different Galaxy Types</h1>
                         <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
+                    <!-- </div>
+                    <div class="col align-self-baseline"> -->
                         <p class="text-white-75 mb-5"></p>
                         <a class="btn btn-primary btn-xl" href="#about">Find Out More ↓</a>
+                    <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -55,7 +58,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">What is our research about?</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Dark Matter has been a focal point of attention, ever since the observation that the outer parts of galaxies were moving at the same speed or faster than the inner parts. In this study, we aim to investigate the distribution of dark matter in galaxies based on the radius and compare the distributions among different galaxy types.</p>
+                        <p class="text-white-75 mb-4" style="font-style: italic;">Dark Matter has been a focal point of attention, ever since the observation that the outer parts of galaxies were moving at the same speed or faster than the inner parts. In this study, we aim to investigate the distribution of dark matter in galaxies based on the radius and compare the distributions among different galaxy types.</p>
                         <a class="btn btn-light btn-xl" href="#research">How Did We Do It? ↓</a>
                     </div>
                 </div>
@@ -64,14 +67,94 @@
         <!-- research-->
         <section class="page-section" id="research">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Computational Astrophysics</h2>
+                <h2 class="text-center mt-0" style="color: navy;">Our Work</h2>
                 <hr class="divider" />
-                <p class="text-center mb-4">We used the <a href="http://astroweb.cwru.edu/SPARC/" target="_blank" rel="noopener noreferer">Spitzer Photometry & Accurate Rotation Curves (SPARC) database</a>, focusing on late-type and early-type galaxies, including Blue Compact Dwarf (BCD), Lenticular (S0), Small Magellanic (Im), Tight Spirals (Sa), Loose Spirals (Sc), Irregular Spirals (Sm), and Elliptical (E0-E7) galaxies. We used Python and our knowledge of astrophysics to sort through the data and perform computations.</p>
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-10 text-left">
+                            <p class="mb-4">
+                                Dark Matter has been puzzling scientists and the world for quite a bit of time. Its origin can be traced back to the observations of astronomer Fritz Zwicky in the 1930s, who noticed inconsistencies between the calculated and observed mass of galaxy clusters, hypothesizing the existence of invisible matter, which he referred to as Dark Matter.<br><br>
+                                However, it was not until the 1970s that the concept of dark matter gained significant attention. Vera Rubin, an astronomer, and her colleagues conducted studies on the rotation curves of galaxies. Their observations revealed that stars located at the outer regions of galaxies exhibited velocities higher than expected based solely on visible matter. This behavior suggested the presence of additional mass, dark matter.<br><br>
+                                Dark matter holds a crucial role in our comprehension of the cosmos, accounting for roughly 27 percent of the universe’s total mass. Its gravitational influence also plays a fundamental part in shaping the formation of galaxies, providing the essential framework that governs the construction of large-scale structures.<br><br>
+                                Our study aims to find the distribution of dark matter in a galaxy based on the radius, and then compare the distributions for spiral, elliptical, lenticular, and irregular galaxies. We also want to compare the dark matter distributions in field galaxies to those in a cluster.<br><br>
+                                Investigating the distribution of dark matter within galaxies is crucial for understanding the structure of the universe, the formation of galaxies, and the nature of dark matter. While scientists lack a full understanding of dark matter, there is strong evidence supporting its existence. Because of this, further investigation of dark matter, including its distribution, is warranted. Understanding the distribution of dark matter would also provide understanding of astrophysical processes, such as galaxy formation and evolution, and allow testing of theoretical models, including cosmological models. It would also offer a stronger grasp on the formation of galactic halos and gravitational lensing within galaxies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h2 class="text-center mt-0" style="color: navy;">Our Source of Data</h2>
+                <hr class="divider" />
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-10 text-left">
+                            <p class="mb-4">
+                                We use the <a href="http://astroweb.cwru.edu/SPARC/">Spitzer Photometry & Accurate Rotation Curves (SPARC) database</a> of galaxies. We specifically focus on the Basic SPARC Data (Late-Type Galaxies) and the Early-Type Galaxies Data for our analysis. Our sample encompasses various galaxy types, including Blue Compact Dwarf (BCD), Lenticular (S0), Small Magellanic (Im), Tight Spirals (Sa), Loose Spirals (Sc), Irregular Spirals (Sm), and Elliptical (E0-E7). By including galaxies across different classifications, the goal was to capture a wide range of dark matter distribution patterns.<br><br>
+                                <img src="./assets/img/galaxies.png" style="width: 100%; height: auto;" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h2 class="text-center mt-0" style="color: navy;">Our Results</h2>
+                <hr class="divider" />
+                <div class="container px-4 px-lg-5">
+                    <div class="container px-4 px-lg-5">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-lg-10 text-left">
+                                <p class="mb-4">
+                                    The luminosity curves for all galaxies flatten at larger radii, indicating a decrease in stellar density and a growth in luminosity. Also, M/L ratio starts low and increases as the radius increases. This suggests the presence of dark matter increasing in addition to the visible matter. In addition, we can tell that the distribution of dark matter from the center of the galaxy rises at an exponential rate.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col offset-md-1">
+                            <img src="./assets/img/mass.png" style="width: 90%; height: auto;" />
+                            <p style="font-size: 15px; font-weight: 700;" class="text-center">Mass (Solar Masses) vs. Radius (Kiloparsecs)</p>
+                        </div>
+                        <div class="col">
+                            <img src="./assets/img/luminosity.png" style="width: 90%; height: auto;" />
+                            <p style="font-size: 15px; font-weight: 700;" class="text-center">Luminosity (Solar Luminosities) vs. Radius (Kiloparsecs)</p>
+                        </div>
+                    </div>
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <img src="./assets/img/ml.png" style="width: 50%; height: auto;" />
+                        <p style="font-size: 17px; font-weight: 700;" class="text-center">Mass-to-Luminosity Ratio (Solar Masses per Solar Luminosity) vs. Radius (Kiloparsecs)</p>
+                    </div>
+                </div>
+                <br>
+                <h2 class="text-center mt-0" style="color: navy;">Reflection</h2>
+                <hr class="divider" />
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-10 text-left">
+                            <p class="mb-4">
+                                Reflecting on our research, we have made significant progress in understanding the distribution of dark matter in galaxies and its relationship with mass and luminosity. Through the analysis of data from the SPARC database, we were able to examine the mass-to-luminosity ratio within different radii and observe intriguing trends.<br><br>
+                                One of the notable findings was the increase in the mass-to-luminosity ratio with radius for all galaxy types. This suggests that as we move further away from the center of a galaxy, the influence of dark matter becomes more prominent relative to the visible matter. This aligns with the concept of dark matter forming a halo around galaxies and exerting gravitational effects on the luminous matter.<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h2 class="text-center mt-0" style="color: navy;">Future Work</h2>
+                <hr class="divider" />
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-10 text-left">
+                            <p class="mb-4">
+                                Moving forward, further investigation is required to delve deeper into the complexities of dark matter distribution and its implications for galaxy formation and evolution. Additionally, exploring the connection between dark matter distributions in field galaxies and those in clusters would provide valuable insights into the influence of the environment on dark matter structures.<br><br>
+                                Examining the detailed profiles of dark matter halos is also an intriguing area for research. While our research focused on the distribution of dark matter within specific radii, further exploration of density profiles and inner slopes of dark matter halos can provide insights into the properties of dark matter.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider" />
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><img src="./assets/img/open.png" style="width: 50px; height: auto; filter: invert(51%) sepia(37%) saturate(1001%) hue-rotate(326deg) brightness(94%) contrast(88%);" /></div>
-                            <h3 class="h4 mb-2">View Our Source Code on GitHub</h3>
+                            <h2 class="h4 mb-2">View Our Source Code on GitHub</h2>
                             <a class="btn btn-lg" style="background-color: black; border-radius: 50px; --bs-btn-padding-y: 0.5rem; --bs-btn-padding-x: 1.5rem;" href="https://github.com/Jminding/DarkMatter" target="_blank" rel="noopener noreferer"><img src="./assets/img/github-mark-white.png" style="width: 50px; height: auto;" /></a>
                         </div>
                     </div>
@@ -137,7 +220,12 @@
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Jaymin Ding, Pradyota Phaneesh, and Abhiram Atluri</div></div>
+            <div class="container px-4 px-lg-5">
+                <div class="small text-center text-muted" style="font-style: italic;">
+                    Copyright &copy; 2023 - Jaymin Ding, Pradyota Phaneesh, and Abhiram Atluri<br>
+                    Developed by Jaymin Ding
+                </div>
+            </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
